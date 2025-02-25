@@ -1,5 +1,7 @@
+import { authConfig } from '@/configs/auth'
 import { AppError } from '@/utils/AppError'
 import type { NextFunction, Request, Response } from 'express'
+import { verify } from 'jsonwebtoken'
 
 export function ensureAuthenticated(
   request: Request,
@@ -13,7 +15,13 @@ export function ensureAuthenticated(
   }
 
   const [, token] = authHeader.split(' ')
-  console.log(token)
+
+  const { sub: user_id } = verify(token, authConfig.jwt.secret)
+
+  request.user = {
+    id: String(user_id),
+  }
+  console.log(request.user)
 
   return next()
 }

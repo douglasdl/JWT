@@ -9,7 +9,7 @@ class SessionsController {
 
     // Simulate user data return from database
     const fakeUser = {
-      id: 1,
+      id: '1',
       username: 'douglas',
       password: '123456',
     }
