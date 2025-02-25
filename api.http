@@ -1,6 +1,8 @@
-# Create Session
+@baseUrl = http://localhost:3333
 
-POST http://localhost:3333/sessions
+### Create Session
+# @name login
+POST {{baseUrl}}/sessions
 Content-Type: application/json
 
 {
@@ -10,9 +12,9 @@ Content-Type: application/json
 
 ### Create Product
 
-POST http://localhost:3333/products
+POST {{baseUrl}}/products
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDA0NTc1ODcsImV4cCI6MTc0MDU0Mzk4Nywic3ViIjoiMSJ9.or5UfVKhkohkc0Tc3TcXDnuAn9m3baBz1E4VW3FDEtU
+Authorization: Bearer {{login.response.body.token}}
 
 {
   "username": "douglas",
@@ -20,4 +22,4 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiY3VzdG9tZ
 }
 
 ### List Products
-GET http://localhost:3333/products
+GET {{baseUrl}}/products
