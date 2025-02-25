@@ -12,7 +12,7 @@ Content-Type: application/json
 
 POST http://localhost:3333/products
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDA0NTMwMTEsImV4cCI6MTc0MDUzOTQxMSwic3ViIjoiMSJ9.IzZpVP-z093DX9lDHqTqTVeJDVj5njMG2iwI3J8oHO0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiY3VzdG9tZXIiLCJpYXQiOjE3NDA0NTc1ODcsImV4cCI6MTc0MDU0Mzk4Nywic3ViIjoiMSJ9.or5UfVKhkohkc0Tc3TcXDnuAn9m3baBz1E4VW3FDEtU
 
 {
   "username": "douglas",

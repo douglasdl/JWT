@@ -44,12 +44,12 @@ HMACSHA256(
 ```
 
 
-### Authentication and Authorization
+## Authentication and Authorization
 
 - Authentication: who are you?
 - Authorization: what can you do? (permission)
 
-### The project that we will use
+## The project that we will use
 
 Install the dependencies:
 ```sh
@@ -61,11 +61,11 @@ Start the server:
 npm run dev
 ```
 
-### Using Environment Variable
+## Using Environment Variable
 
 - [MD5 Hash Generator](https://www.md5hashgenerator.com/)
 
-### JSON Web Token
+## JSON Web Token
 
 Install the dependencies:
 ```sh
@@ -73,16 +73,20 @@ npm i jsonwebtoken@9.0.2
 npm i @types/jsonwebtoken@9.0.6 -D
 ```
 
-### Session Creation
+## Session Creation
 
-### Extract the Token
+## Extract the Token
 
-### Authentication Middleware
+## Authentication Middleware
 
-### Define User Role
+## Define User Role
 
-### Automatic Token Update
+## Automatic Token Update
 
-### Authorization Middleware
+## Authorization Middleware
 
+<<<<<<< HEAD
 ### Ending
+=======
+## Ending
+>>>>>>> 8ceece2 (feat: add user role)
