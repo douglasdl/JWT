@@ -1,0 +1,20 @@
+# Create Session
+
+POST http://localhost:3333/sessions
+Content-Type: application/json
+
+{
+  
+}
+
+### Create Product
+
+POST http://localhost:3333/products
+Content-Type: application/json
+
+{
+
+}
+
+### List Products
+GET http://localhost:3333/products
