@@ -85,8 +85,4 @@ npm i @types/jsonwebtoken@9.0.6 -D
 
 ## Authorization Middleware
 
-<<<<<<< HEAD
-### Ending
-=======
 ## Ending
->>>>>>> 8ceece2 (feat: add user role)
