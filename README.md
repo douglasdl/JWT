@@ -51,7 +51,7 @@ HMACSHA256(
 
 ### The project that we will use
 
-Install the dependencies
+Install the dependencies:
 ```sh
 npm i
 ```
@@ -66,6 +66,12 @@ npm run dev
 - [MD5 Hash Generator](https://www.md5hashgenerator.com/)
 
 ### JSON Web Token
+
+Install the dependencies:
+```sh
+npm i jsonwebtoken@9.0.2
+npm i @types/jsonwebtoken@9.0.6 -D
+```
 
 ### Session Creation
 
